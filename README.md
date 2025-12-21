@@ -17,7 +17,7 @@ Templates automatically substitute variable names with their current values, and
 
 ### Downloadable binaries
 
-[See Latest Releases](https://github.com/finahdinner/tidal/releases/latest)
+[See Latest Releases](https://github.com/messy-coding/tidal/releases/latest)
 
 ### Compile from source
 
@@ -31,12 +31,12 @@ Templates automatically substitute variable names with their current values, and
 - **Powershell**:
 
     ```
-    git clone https://github.com/finahdinner/tidal.git tmp-tidal; Set-Location tmp-tidal; go build -o ../tidal.exe; Set-Location ..; Remove-Item tmp-tidal -Recurse -Force
+    git clone https://github.com/messy-coding/tidal.git tmp-tidal; Set-Location tmp-tidal; go build -o ../tidal.exe; Set-Location ..; Remove-Item tmp-tidal -Recurse -Force
     ```
 - **CMD**:
 
     ```
-    git clone https://github.com/finahdinner/tidal.git tmp-tidal && cd tmp-tidal && go build -o ..\tidal.exe && cd .. && rmdir /s /q tmp-tidal
+    git clone https://github.com/messy-coding/tidal.git tmp-tidal && cd tmp-tidal && go build -o ..\tidal.exe && cd .. && rmdir /s /q tmp-tidal
     ```
 
 #### Linux
@@ -45,7 +45,7 @@ Templates automatically substitute variable names with their current values, and
 4. Compile the binary, `tidal`:
 
     ```
-    git clone https://github.com/finahdinner/tidal.git tmp-tidal && cd tmp-tidal && go build -o ../tidal && cd .. && rm -rf tmp-tidal
+    git clone https://github.com/messy-coding/tidal.git tmp-tidal && cd tmp-tidal && go build -o ../tidal && cd .. && rm -rf tmp-tidal
     ```
 
 ## Post-Installation Setup
